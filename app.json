@@ -1,0 +1,52 @@
+{
+  "name": "MEOW-BOT",
+  "description": "MEOW-BOT - a modular WhatsApp bot built with Node.js and Baileys.",
+  "repository": "https://github.com/shuhbap/Meow-Bot",
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "nodejs"
+  ],
+  "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "Your MEOW-BOT session ID (kept private - never share it).",
+      "required": true
+    },
+    "SESSION_URL": {
+      "description": "Session generator URL, only if you use your own generator.",
+      "required": false
+    },
+    "OWNER_NUMBER": {
+      "description": "Owner phone number with country code, digits only (comma separate several for sudo users).",
+      "required": true
+    },
+    "BOT_NAME": {
+      "description": "Display name of the bot.",
+      "value": "MEOW-BOT",
+      "required": false
+    },
+    "PREFIX": {
+      "description": "Command prefix. Use several characters for several prefixes, or null for none.",
+      "value": ".",
+      "required": false
+    },
+    "MODE": {
+      "description": "public = everyone can use the bot, private = owner only.",
+      "value": "public",
+      "required": false
+    },
+    "BOT_LANG": {
+      "description": "Bot reply language: english or manglish (can also be changed with .lang)",
+      "value": "english",
+      "required": false
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  }
+}

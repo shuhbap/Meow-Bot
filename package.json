@@ -1,0 +1,54 @@
+{
+  "name": "meow-bot",
+  "version": "1.0.0",
+  "description": "MEOW-BOT - A modular WhatsApp bot powered by Node.js and Baileys.",
+  "author": "Shuhaib",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node --test test/framework.test.js"
+  },
+  "keywords": [
+    "meow-bot",
+    "whatsapp-bot",
+    "baileys"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shuhbap/Meow-Bot.git"
+  },
+  "homepage": "https://github.com/shuhbap/Meow-Bot",
+  "bugs": {
+    "url": "https://github.com/shuhbap/Meow-Bot/issues"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "6.7.18",
+    "axios": "^1.20.0",
+    "canvacord": "^6.0.2",
+    "dotenv": "^16.4.7",
+    "ffmpeg-static": "^5.3.0",
+    "form-data": "^4.0.6",
+    "jimp": "^0.16.13",
+    "kollavarsham": "^2.5.4",
+    "link-preview-js": "^3.2.0",
+    "node-webpmux": "^3.2.1",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "1.1.1",
+    "pdfkit": "^0.17.0",
+    "pino": "^9.6.0",
+    "puppeteer": "^25.12.0",
+    "sharp": "^0.32.6",
+    "spotifydl-core": "^0.2.0",
+    "tesseract.js": "^5.1.1",
+    "yt-search": "^2.12.1"
+  },
+  "devDependencies": {
+    "javascript-obfuscator": "^5.9.0"
+  }
+}

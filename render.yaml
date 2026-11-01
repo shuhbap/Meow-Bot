@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: meow-bot
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /
+    autoDeploy: false
+    envVars:
+      - key: SESSION_ID
+        sync: false
+      - key: OWNER_NUMBER
+        sync: false
+      - key: BOT_NAME
+        value: MEOW-BOT
+      - key: PREFIX
+        value: "."
+      - key: MODE
+        value: public
+    

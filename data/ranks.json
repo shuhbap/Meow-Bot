@@ -1,0 +1,36 @@
+{
+  "users": {
+    "919037780075": {
+      "xp": 35,
+      "messages": 7,
+      "commands": 0,
+      "lastActive": 1792932254776
+    },
+    "178494596186171": {
+      "xp": 770,
+      "messages": 62,
+      "commands": 46,
+      "lastActive": 1793088149647
+    },
+    "196439590355028": {
+      "xp": 190,
+      "messages": 20,
+      "commands": 9,
+      "lastActive": 1792837906355
+    },
+    "200146147123280": {
+      "xp": 5,
+      "messages": 1,
+      "commands": 0,
+      "lastActive": 1792836614245
+    },
+    "917448520075": {
+      "xp": 10,
+      "messages": 2,
+      "commands": 0,
+      "lastActive": 1792932254769
+    }
+  },
+  "totalMessages": 92,
+  "totalCommands": 55
+}
