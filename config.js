@@ -31,9 +31,6 @@ const config = {
   STICKER_PACK: env.STICKER_PACK || 'Meow-BOT',
   STICKER_AUTHOR: env.STICKER_AUTHOR || 'Meow-BOT',
 
-  /* ---------- External APIs ---------- */
-  SPARKY_API: env.SPARKY_API || 'https://api-aswin-sparky.koyeb.app',
-  ALLDL_API: env.ALLDL_API || 'https://ahm7xmakki.com/api/alldl',
 
   /* ---------- Runtime ---------- */
   PORT: Number(env.PORT) || 3000,
